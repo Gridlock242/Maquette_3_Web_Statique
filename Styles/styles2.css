@@ -1,0 +1,244 @@
+/* BODY  */
+
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-image: linear-gradient(
+      rgba(17, 44, 65, 0.608),
+      rgba(26, 106, 167, 0.279)
+    ),
+    url(/Images/header_image.avif);
+  height: 22rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+nav img {
+  width: 5rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+nav a:last-child {
+  background-color: #2385d0;
+  text-align: center;
+  border-radius: 2%;
+  padding: 6px;
+}
+div {
+  text-align: center;
+  color: white;
+}
+div h1 {
+  font-size: 85px;
+  font-style: italic;
+  margin: 0;
+}
+div p {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  nav img {
+    width: 50px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+}
+
+/* MAIN : 4 CADRES À ICONES */
+
+ul#articleBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul#articleBoxes li {
+  list-style: none;
+  width: calc(50% - 40px);
+  padding: 50px 20px;
+}
+#articleBoxes img {
+  width: 45px;
+}
+.greyBox {
+  background-color: #f0f0ef;
+}
+#articleBoxes h2 {
+  font-size: 20px;
+}
+
+/* MAIN : CADRES AU DESSUS DE LA MAP */
+
+div#containerMapCover {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -50px;
+}
+div#containerMapCover ul {
+  display: flex;
+  list-style: none;
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+div#containerMapCover ul li {
+  padding: 80px 65px;
+  background-size: cover;
+}
+div#containerMapCover ul li:first-child {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.699)),
+    url(/Images/item1.avif);
+}
+div#containerMapCover ul li:nth-last-child(1) {
+  background-image: linear-gradient(
+      rgba(137, 185, 252, 0.5),
+      rgba(130, 186, 250, 0.5)
+    ),
+    url(/Images/item2.avif);
+}
+
+/* MAIN : PARAGRAPHE */
+
+#titreParagraphe {
+  text-align: center;
+  margin: 40px 0px 50px 0px;
+}
+#titreParagraphe h3 {
+  font-size: 25px;
+}
+
+/* MAIN : TROIS ICONES */
+
+#boxIcons {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+#boxIcons ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+#boxIcons ul li {
+  border: rgb(220, 220, 220) solid 1px;
+  list-style: none;
+  width: calc(33% + 3px);
+  padding: 30px 0px;
+}
+#boxIcons ul li img {
+  width: 50px;
+}
+
+/* MAIN : AU DESSUS DU FOOTER */
+
+#aboveFooterBox {
+  margin: 0;
+  background-image: linear-gradient(
+      0.25turn,
+      rgba(55, 130, 184, 0.541),
+      rgba(8, 16, 25, 0.748)
+    ),
+    url(/Images/main_image.avif);
+  height: 400px;
+  background-size: cover;
+  color: white;
+  border-bottom: #2385d0 solid 10px;
+  display: flex;
+  justify-content: end;
+}
+#paragraphAndAnchor {
+  width: 26%;
+  justify-content: end;
+  height: 200px;
+}
+#paragraphAndAnchor a {
+  text-decoration: none;
+  color: white;
+  background-color: #2385d0;
+  padding: 10px;
+  margin-top: 20;
+}
+#aboveFooterDiv {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: end;
+  padding: 50px 150px 50px 50px;
+}
+
+@media (max-width: 600px) {
+  nav img {
+    width: 50px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  div#containerMapCover ul {
+    flex-direction: column;
+  }
+
+  #boxIcons ul {
+    flex-wrap: nowrap;
+  }
+
+  #paragraphAndAnchor {
+    width: 50%;
+  }
+
+  #paragraphAndAnchor p,
+  a {
+    font-size: 10px;
+  }
+
+  #aboveFooterDiv {
+    padding: 50px 10px;
+  }
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  padding: 50px 400px;
+}
+
+footer div img {
+  width: 60px;
+}
+
+footer div p {
+  width: 80%;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 10px;
+    padding: 30px 30px;
+  }
+}
