@@ -12,7 +12,7 @@ header {
       rgba(17, 44, 65, 0.608),
       rgba(26, 106, 167, 0.279)
     ),
-    url(/Images/header_image.avif);
+    url(./Images/header_image.avif);
   height: 22rem;
 }
 nav {
@@ -102,14 +102,14 @@ div#containerMapCover ul li {
 }
 div#containerMapCover ul li:first-child {
   background-image: linear-gradient(rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.699)),
-    url(/Images/item1.avif);
+    url(./Images/item1.avif);
 }
 div#containerMapCover ul li:nth-last-child(1) {
   background-image: linear-gradient(
       rgba(137, 185, 252, 0.5),
       rgba(130, 186, 250, 0.5)
     ),
-    url(/Images/item2.avif);
+    url(./Images/item2.avif);
 }
 
 /* MAIN : PARAGRAPHE */
@@ -154,7 +154,7 @@ div#containerMapCover ul li:nth-last-child(1) {
       rgba(55, 130, 184, 0.541),
       rgba(8, 16, 25, 0.748)
     ),
-    url(/Images/main_image.avif);
+    url(./Images/main_image.avif);
   height: 400px;
   background-size: cover;
   color: white;
