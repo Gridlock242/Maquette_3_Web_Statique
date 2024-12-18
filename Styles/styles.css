@@ -96,7 +96,7 @@ body {
           rgba(0, 0, 0, 0.766),
           rgba(0, 0, 0, 0.699)
         ),
-        url(/Images/item1.avif);
+        url(./Images/item1.avif);
     }
     div#containerMapCover ul li:nth-last-child(1) {
       background-image: linear-gradient(
