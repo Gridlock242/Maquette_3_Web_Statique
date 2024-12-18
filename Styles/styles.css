@@ -8,7 +8,7 @@ body {
         rgba(17, 44, 65, 0.608),
         rgba(26, 106, 167, 0.279)
       ),
-      url(/Images/header_image.avif);
+      url(./Images/header_image.avif);
     height: 22rem;
     nav {
       display: flex;
@@ -103,7 +103,7 @@ body {
           rgba(137, 185, 252, 0.5),
           rgba(130, 186, 250, 0.5)
         ),
-        url(/Images/item2.avif);
+        url(./Images/item2.avif);
     }
     #titreParagraphe {
       text-align: center;
@@ -139,7 +139,7 @@ body {
           rgba(55, 130, 184, 0.541),
           rgba(8, 16, 25, 0.748)
         ),
-        url(/Images/main_image.avif);
+        url(./Images/main_image.avif);
       height: 400px;
       background-size: cover;
       color: white;
